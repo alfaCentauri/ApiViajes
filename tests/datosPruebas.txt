@@ -1,0 +1,46 @@
+array(4) {
+  ["cedula"]=>
+  string(8) "12345679"
+  ["nombre"]=>
+  string(10) "Juan Perez"
+  ["direccion"]=>
+  string(7) "Caracas"
+  ["telefono"]=>
+  string(10) "2121234567"
+}
+Codigos HTTP:
+400 Bad request
+401 Unauthorized
+402 Payment Required
+403 Forbidden
+404 Not found
+405 Method Not Allowed
+406 Not Acceptable
+
+
+Datos de preubas de viajes:
+[{
+  "id": 1,
+  "cantidadPlazas": 20,
+  "destino": "Madrid, España",
+  "origen": "Barcelona, Venezuela",
+  "precio": 1200.94,
+  "fecha": {
+    "date": "2019-04-05 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "America\/Halifax"
+  }
+}, {
+  "id": 2,
+  "cantidadPlazas": 30,
+  "destino": "Barcelona, España",
+  "origen": "Barcelona, Venezuela",
+  "precio": 1150.56,
+  "fecha": {
+    "date": "2019-07-30 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "America\/Halifax"
+  }
+}]
+
+{"cantidadPlazas": 10, "destino": "Cucuta, Colombia", "origen": "Barcelona, Venezuela", "precio": 160.26, "fecha": "2019-07-31"}
